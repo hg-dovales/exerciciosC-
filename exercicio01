@@ -1,0 +1,5 @@
+void showDinoHealth(double dinoHealth){
+  std::cout << "Vida do dino: " << dinoHealth;
+}
+
+showDinoHealth(1500.5);

@@ -1,0 +1,7 @@
+void healDino(double& health, double healAmount)
+{
+  health += healAmount;
+}
+double rexHealth = 500.0;
+healDino(rexHealth, 200.0)
+std::cout << "Vida do Rex: " << rexHealth;

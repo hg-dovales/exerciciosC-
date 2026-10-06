@@ -1,0 +1,4 @@
+int playerLevel = 50;
+int* levelPointer = &playerLevel;
+*levelPointer = 75;
+std::cout << "Nível atual: " << playerLevel;

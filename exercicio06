@@ -1,0 +1,12 @@
+void takeDamage(double* health, double damage)
+{
+  *health -= damage;
+}
+double rexHealth = 1000.0;
+takeDamage(&rexHealth, 250.0);
+std::cout << "Vida do Rex: " << rexHealth;
+
+double rexHealth = 1000.0; -> declaração da variável
+&rexHealth; -> endereço da variavel
+double* healthPointer = &rexHealth; -> endereço armazenado no ponteiro
+*healthPointer -> acessar o valor localizado no endereço apontado pelo ponteiro

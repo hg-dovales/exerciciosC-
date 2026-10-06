@@ -1,0 +1,6 @@
+double calculateTotalDamage(double baseDamage, double multiplier)
+{
+  return baseDamage * multiplier;
+}
+double finalDamage = calculateTotalDamage(150.0, 2.5);
+std::cout << "Dano final: "  << finalDamage;

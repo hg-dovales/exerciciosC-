@@ -1,0 +1,8 @@
+double calculateDinoHealth(double currentHealth, double damage)
+{
+  double finalHealth = currentHealth - damage;
+  return finalHealth;
+}
+
+double finalHealth = calculateDinoHealth(2000.0, 350.5);
+std::cout << "Vida final: " << finalHealth;
